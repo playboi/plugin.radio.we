@@ -1,15 +1,14 @@
 [
     {
-     'name': 'We Ting Radio',
-     'thumb': '',
-     'url': 'https://wetingradio.com',
-     'stream': 'http://usa8.fastcast4u.com:5916/stream'
+        "name": "We Ting Radio",
+        "thumb": "",
+        "url": "https://wetingradio.com",
+        "stream": "http://usa8.fastcast4u.com:5916/stream"
     },
     {
-     'name': 'Bacchanal Radio',
-     'thumb': '',
-     'url': 'https://bacchanalradio.com',
-     'stream': 'http://usa8.fastcast4u.com:5916/stream'
+        "name": "Bacchanal Radio",
+        "thumb": "",
+        "url": "https://bacchanalradio.com",
+        "stream": "http://usa8.fastcast4u.com:5916/stream"
     }
 ]
-
