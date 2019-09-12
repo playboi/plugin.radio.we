@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.radio.we" name="We Radio Stations" version="0.1.0" provider-name="torontoplayboi">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">We Online Radio</summary>
+        <license>MIT</license>
+        <email>torontoplayboi@gmail.com</email>
+        <platform>all</platform>
+    </extension>
+</addon>
