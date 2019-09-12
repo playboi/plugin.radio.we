@@ -5,6 +5,7 @@
 # License MIT 
 
 import sys
+import json
 
 from urllib import urlencode
 from urlparse import parse_qsl
@@ -15,19 +16,8 @@ import xbmcplugin
 _url = sys.argv[0]
 _handle = int(sys.argv[1])
 
-STATIONS = [{
-    'name': 'We Ting Radio',
-    'thumb': '',
-    'url': 'https://wetingradio.com',
-    'stream': 'http://usa8.fastcast4u.com:5916/stream'
-    },
-    {
-    'name': 'Bacchanal Radio',
-    'thumb': '',
-    'url': 'https://bacchanalradio.com',
-    'stream': 'http://usa8.fastcast4u.com:5916/stream'
-}]
-
+with open('stations.json', 'r') as f:
+	STATIONS = json.load(f) 
 
 def get_url(**kwargs):
     return '{0}?{1}'.format(_url, urlencode(kwargs))
