@@ -2,7 +2,7 @@
 # Module: addon
 # Author: Mike Knight
 # Created on: 12.09.2019
-# License MIT 
+# License MIT
 
 import sys
 import json
@@ -16,14 +16,17 @@ import xbmcplugin
 _url = sys.argv[0]
 _handle = int(sys.argv[1])
 
-with open('stations.json', 'r') as f:
-	STATIONS = json.load(f) 
+with open('./stations.json', 'r') as f:
+    STATIONS = json.load(f)
+
 
 def get_url(**kwargs):
     return '{0}?{1}'.format(_url, urlencode(kwargs))
 
+
 def get_stations_list():
     return STATIONS
+
 
 def list_stations():
     xbmcplugin.setPluginCategory(_handle, 'My Caribbean Radio Stations')
@@ -39,7 +42,8 @@ def list_stations():
             'fanart': station['thumb']
         })
 
-        list_item.setInfo('audio', {'title': station['name'], 'genre': '', 'mediatype': 'audio'})
+        list_item.setInfo(
+            'audio', {'title': station['name'], 'genre': '', 'mediatype': 'audio'})
 
         # This is mandatory for playable items!
         list_item.setProperty('IsPlayable', 'true')
