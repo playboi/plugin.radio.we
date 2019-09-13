@@ -3,40 +3,45 @@
         "name": "We Ting Radio",
         "thumb": "we-ting.jpg",
         "icon": "",
-        "fanart": "",
+        "fanart": "we-ting.jpg",
+        "genre": "Various",
         "url": "https://wetingradio.com",
         "stream": "http://usa8.fastcast4u.com:5916/stream"
     },
     {
         "name": "Bacchanal Radio",
-        "thumb": "",
+        "thumb": "br.jpg",
         "icon": "",
-        "fanart": "",
+        "fanart": "bacchanal-radio.jpg",
         "url": "https://bacchanalradio.com",
+        "genre": "Various",
         "stream": "http://198.101.15.90:8073/"
     },
     {
         "name": "Island Zone Radio",
-        "thumb": "",
+        "thumb": "island-zone-thumb.jpeg",
         "icon": "",
-        "fanart": "",
+        "fanart": "island-zone-fanart.jpg",
         "url": "https://islandzoneradio.com",
+        "genre": "Various",
         "stream": "http://188.165.232.7:8984/stream"
     },
     {
         "name": "Guyana Chunes Radio",
-        "thumb": "guyana-chunes.png",
+        "thumb": "guyana-chunes.jpg",
         "icon": "",
         "fanart": "guyana-chunes.jpg",
         "url": "https://guyanachunes.com",
+        "genre": "Various",
         "stream": "http://ca2.radioboss.fm/proxy/guyanac1?mp=/stream"
     },
     {
         "name": "Foreign Link Radio",
-        "thumb": "",
+        "thumb": "foriegn-link-radio.png",
         "icon": "",
-        "fanart": "",
+        "fanart": "foriegn-link-radio.png",
         "url": "https://foriegnlinkradio.net",
+        "genre": "Various",
         "stream": "http://87.98.219.178:8460/stream"
     },
     {
@@ -45,6 +50,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://web-radio.co.uk:8240/stream"
     },
     {
@@ -52,6 +58,7 @@
         "thumb": "",
         "icon": "",
         "fanart": "",
+        "genre": "Various",
         "url": "https://seductivesoundsradio.com",
         "stream": ""
     },
@@ -60,6 +67,7 @@
         "thumb": "",
         "icon": "",
         "fanart": "",
+        "genre": "Various",
         "url": "https://enfxradio.com",
         "stream": "http://144.217.129.213:8331/;stream.mp3"
     },
@@ -68,6 +76,7 @@
         "thumb": "",
         "icon": "",
         "fanart": "",
+        "genre": "Various",
         "url": "https://dancehalllink.net",
         "stream": "https://streamer.radio.co/s30d82be5e/listen"
     },
@@ -77,6 +86,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://auds1.intacs.com/caribbeanpowerjamradio"
     },
     {
@@ -85,6 +95,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "https://streamer.radio.co/s037e0fa4f/listen"
     },
     {
@@ -93,6 +104,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://streamer.radio.co/sccac26c77/listen"
     },
     {
@@ -100,6 +112,7 @@
         "thumb": "caribbean-vibes-thumb.png",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://68.168.101.146:8494/CaribbeanVibesRadio"
     },
     {
@@ -108,6 +121,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://51.15.152.81:8905/stream"
     },
     {
@@ -116,6 +130,7 @@
         "icon": "",
         "fanart": "",
         "url": "",
+        "genre": "Various",
         "stream": "http://198.27.80.205:5728/live"
     },
     {
@@ -123,6 +138,8 @@
         "thumb": "",
         "icon": "",
         "fanart": "",
+        "url": "",
+        "genre": "Various",
         "stream": "http://media.guardian.co.tt:8000/slam100.5"
     }
 ]

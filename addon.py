@@ -47,7 +47,7 @@ def list_stations():
         })
 
         list_item.setInfo(
-            'audio', {'title': station['name'], 'genre': '', 'mediatype': 'audio'})
+            'music', {'title': station['name'], 'genre': station['genre'], 'mediatype': 'episode'})
 
         # This is mandatory for playable items!
         list_item.setProperty('IsPlayable', 'true')
