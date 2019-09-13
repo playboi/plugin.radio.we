@@ -1,0 +1,128 @@
+[
+    {
+        "name": "We Ting Radio",
+        "thumb": "we-ting.jpg",
+        "icon": "",
+        "fanart": "",
+        "url": "https://wetingradio.com",
+        "stream": "http://usa8.fastcast4u.com:5916/stream"
+    },
+    {
+        "name": "Bacchanal Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://bacchanalradio.com",
+        "stream": "http://198.101.15.90:8073/"
+    },
+    {
+        "name": "Island Zone Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://islandzoneradio.com",
+        "stream": "http://188.165.232.7:8984/stream"
+    },
+    {
+        "name": "Guyana Chunes Radio",
+        "thumb": "guyana-chunes.png",
+        "icon": "",
+        "fanart": "guyana-chunes.jpg",
+        "url": "https://guyanachunes.com",
+        "stream": "http://ca2.radioboss.fm/proxy/guyanac1?mp=/stream"
+    },
+    {
+        "name": "Foreign Link Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://foriegnlinkradio.net",
+        "stream": "http://87.98.219.178:8460/stream"
+    },
+    {
+        "name": "GT Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "http://web-radio.co.uk:8240/stream"
+    },
+    {
+        "name": "Seductive Sounds Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://seductivesoundsradio.com",
+        "stream": ""
+    },
+    {
+        "name": "ENFX Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://enfxradio.com",
+        "stream": "http://144.217.129.213:8331/;stream.mp3"
+    },
+    {
+        "name": "Dancehall Link Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "https://dancehalllink.net",
+        "stream": "https://streamer.radio.co/s30d82be5e/listen"
+    },
+    {
+        "name": "Caribbean Power Jam Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "http://auds1.intacs.com/caribbeanpowerjamradio"
+    },
+    {
+        "name": "Dancehall Reggae Link Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "https://streamer.radio.co/s037e0fa4f/listen"
+    },
+    {
+        "name": "One Link Radio",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "http://streamer.radio.co/sccac26c77/listen"
+    },
+    {
+        "name": "Caribbean Vibes Radio",
+        "thumb": "caribbean-vibes-thumb.png",
+        "fanart": "",
+        "url": "",
+        "stream": "http://68.168.101.146:8494/CaribbeanVibesRadio"
+    },
+    {
+        "name": "Radio Guyana International",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "http://51.15.152.81:8905/stream"
+    },
+    {
+        "name": "Voice of Guyana 😄",
+        "thumb": "vog.png",
+        "icon": "",
+        "fanart": "",
+        "url": "",
+        "stream": "http://198.27.80.205:5728/live"
+    },
+    {
+        "name": "Slam 100.5 FM Trinidad",
+        "thumb": "",
+        "icon": "",
+        "fanart": "",
+        "stream": "http://media.guardian.co.tt:8000/slam100.5"
+    }
+]

@@ -10,14 +10,14 @@ import json
 from urllib import urlencode
 from urlparse import parse_qsl
 
+import xbmcaddon
 import xbmcgui
 import xbmcplugin
 
 _url = sys.argv[0]
 _handle = int(sys.argv[1])
-
-with open('./stations.json', 'r') as f:
-    STATIONS = json.load(f)
+ADDON = xbmcaddon.Addon('plugin.radio.we')
+CWD = ADDON.getAddonInfo('path').decode('utf-8')
 
 
 def get_url(**kwargs):
@@ -25,21 +25,25 @@ def get_url(**kwargs):
 
 
 def get_stations_list():
+    with open(CWD + '/resources/data/stations.json', 'r') as f:
+        STATIONS = json.load(f)
+
     return STATIONS
 
 
 def list_stations():
-    xbmcplugin.setPluginCategory(_handle, 'My Caribbean Radio Stations')
+    xbmcplugin.setPluginCategory(_handle, 'Stations')
     xbmcplugin.setContent(_handle, 'songs')
 
     stations = get_stations_list()
 
     for station in stations:
-        list_item = xbmcgui.ListItem(label=station['name'])
+        list_item = xbmcgui.ListItem(
+            label=station['name'], thumbnailImage=station['thumb'])
         list_item.setArt({
-            'thumb': station['thumb'],
-            'icon': station['thumb'],
-            'fanart': station['thumb']
+            'thumb': CWD + '/resources/media/thumb/' + station['thumb'],
+            'icon': CWD + '/resources/media/icon/' + station['thumb'],
+            'fanart': CWD + '/resources/media/fanart/' + station['fanart']
         })
 
         list_item.setInfo(
